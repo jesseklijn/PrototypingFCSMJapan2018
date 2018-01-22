@@ -14,36 +14,36 @@ public class ButtonPressMethods : MonoBehaviour {
         audioSource.Play();
     }
 
-    public static void SwitchScene(int i)
+    public void SwitchScene(int i)
     {
         if(i == 2)
         {
-            SceneManager.LoadScene("_AppMainScreen", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_AppMainScreen");
         }
         
         else if(i == 3)
         {
-            SceneManager.LoadScene("_HomeMenu", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_HomeMenu");
         }
         else if(i == 4)
         {
-            SceneManager.LoadScene("_Profile", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_Profile");
         }
         else if(i == 5)
         {
-            SceneManager.LoadScene("_Level", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_Level");
         }
         else if(i == 6)
         {
-            SceneManager.LoadScene("_ResearchMenu", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_ResearchMenu");
         }
         else if(i == 7)
         {
-            SceneManager.LoadScene("_UniverseMenu", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_UniverseMenu");
         }
         else if(i == 8)
         {
-            SceneManager.LoadScene("_Topic", LoadSceneMode.Additive);
+            SceneManager.LoadScene("_Topic");
         }
     }
   
